@@ -4,4 +4,5 @@ if __name__ == "__main__":
   spotify = SpotifyApi()
   PLAYLIST_NAME = "all_songs"
   songs = spotify.get_playlist_songs(PLAYLIST_NAME)
-  print(songs)
+  top_songs = spotify.get_top_songs()
+  print(top_songs)

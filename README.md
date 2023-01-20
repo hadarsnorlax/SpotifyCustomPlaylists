@@ -1,6 +1,6 @@
 # SpotifyCustomPlaylists
 
-Use API Auth Token of scope: 'playlist-modify-public'
+Use API Auth Token of scopes: 'playlist-modify-public' and 'user-top-read'
 
 * Environment Variables
 
